@@ -9,7 +9,7 @@ metadata:
     kubernetes.io/ingress.class: istio
     consul.hashicorp.com/connect-inject: “true”
 spec:
-# ingressClassName: nginx
+  ingressClassName: nginx
   rules:
   - http:
       paths:
